@@ -4,3 +4,7 @@ Joe's research on how to use libgdx
 
 2/2/17 - research in libgdx
 http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
+
+2/4/17 - libgdx research parts 1 through 9 part 2
+http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
+
