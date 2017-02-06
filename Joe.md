@@ -8,3 +8,5 @@ http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
 2/4/17 - libgdx research parts 1 through 9 part 2
 http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
 
+2/6/17 - libgdx research parts 9 part 3 through 10
+http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
