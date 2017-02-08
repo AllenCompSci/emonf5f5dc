@@ -10,3 +10,5 @@ http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
 
 2/6/17 - libgdx research parts 9 part 3 through 10
 http://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx
+
+2/8/17 - Finding tilsets that work
