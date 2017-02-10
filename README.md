@@ -8,7 +8,7 @@
 ###Week 1 - 
 ###Jakob - Made Pokemon TMs.csv and worked on LearnSet.csv
 ###Joe - Worked on LearnSet.csv, Pokemon.csv, and Pokemon TMs.csv
-###Aashay - Worked on pokedex descriptions
+###Aashay - finished pokedex descriptions also didn't know we werent using pokemonff5dc
 ###Kyle - Worked on pokedex descriptions
 
 ###Link to pokedex descriptions - https://1drv.ms/x/s!ArvNBuQoBofMySXxajtXVVSm7wWl
