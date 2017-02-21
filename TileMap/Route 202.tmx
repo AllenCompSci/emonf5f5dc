@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="38" height="38" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="TREES" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="Tile Sets/TREES.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="Goku" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="Tile Sets/ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <layer name="Grass" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6DOv80KqYp9kNBLqqqqqqqqzweFiwwA
+  </data>
+ </layer>
+ <layer name="rood" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztV20OgjAMZcAfD+Fxid4CNsFz2kUbajNw07IVw0teQmAtj270o6oOHNCJETgB76WFMNwMaANOprSSd2jRhfuGtM1Tl2vme0t7ym0l9x/js8al2IVspeKMvm0L13WYYx22dWTN0G6j61d/0ufy0JUG9+EM5fbjcQEfHeFVwOe/o2Q9PJ9mcpSsO1STBTqvR4EuisHndl//zL50YTxpTDXowud0jQZdva/BL9qM+axn79RyvjhSdfl8lyPXoS7an67R97M5YhvTr3LiN2wZt5h+NbWPlYBkfyIF3ud0EdpCNqk+9gztc3/MPxaaY6XnWa4rZi5dyyloF+rxvoFL+Pf5Wj7PLvWeJaC1vmrMf6l4AFjRo6I=
+  </data>
+ </layer>
+ <layer name="grass whom is tall" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsKgDAMhOFQ3HgIt95U9Nhd+qqLgWmT2vmhO4mfETVTSjFap/e5tsznieRizUTnjuRizB3JFfU9RnUx25PZ9jhHul/j4f7avfc+5ZJLLrl6dSE2jxiuGs/B2FPN/UZ1le4TzYUmFxb63bT6H8n1D5fqswxFCDGS
+  </data>
+ </layer>
+ <layer name="signs" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztzrENgDAMAEGnS3YGBoCwM66hg8JCupO+/wjgrbVHbL364mkZ+TaqLwCAvzmymZ3VIzd7y7dstuoTAAC+ugAG6gVf
+  </data>
+ </layer>
+ <layer name="buldings" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztzsENgCAURMFfBFRiVWiFIsUpBagcjFxmknfdbMSYmiLKErHetF21NDj2of6r5udm/NpfPvWO/P8vAAAAAIBZTrQWFrM=
+  </data>
+ </layer>
+ <layer name="stairs" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQBMGD779NtQwDEytQkRnYfJO/tEr61qjbR8urXwAAAAAAp0zw7wkl
+  </data>
+ </layer>
+ <layer name="TREEEEEEEEES" width="38" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztmE0LwjAMhrvpZerFj5PenCf1pP7/32YFByGkyZt2mw72QnjZYGn7sKYfdQhhEaP++jlGK/gl2KpYHsRT7a5irIlfY9wEvwP9alger9P2jjFOgCPcto58lqO8EG6cl5aHegmvzl8Gr12MfYxHjCfgY/DySuPL+2mNT+PllfY/cl6bHtu15OE1pmZePk2FF+WWquvW+sjXwlZ4tkTrXW794nVL+jf4M8peymXV9894pLpVAd8ewH4F4VuLV6q+j80Lre/SWjgkr9z5KI25T165kmrRzCutmZdP0vz8B14l8vKia+BygP7Q/B5eTeJ9X8rdf9E55vlXUOXuv6bIS9p/ee80huCFnK2ts2YJr64mcV7I2do6a05lfz+fh3R5eKXmlteR+0WNl+eeyuM594sl91/e+0WN3y94Ifw0Xm8cnFJW
+  </data>
+ </layer>
+</map>
