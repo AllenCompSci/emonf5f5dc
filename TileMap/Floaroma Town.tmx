@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="64" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="TREES" tilewidth="16" tileheight="16" tilecount="240" columns="8">
+  <image source="Tile Sets/All Trees.png" trans="000000" width="128" height="480"/>
+ </tileset>
+ <tileset firstgid="241" name="Goten" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="Tile Sets/ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <tileset firstgid="32881" name="plat" tilewidth="16" tileheight="16" tilecount="8282" columns="82">
+  <image source="Tile Sets/pokemon_platinum_tiles_wip_by_klnothincomin.png" trans="000000" width="1324" height="1622"/>
+ </tileset>
+ <layer name="groond" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7Ay/2cFV8cggfSSqqqqqqqqqqqvD9XDsD0=
+  </data>
+ </layer>
+ <layer name="flowers" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztl1sSgjAMRVF/QHeg+18MsCnbjzqhk1dJsVZyZzKdEey56StlGFxRy6SLOQut1nEbvfKTh+UI/ghaGPBZ5qEan2IjHvK+sP4o7jwxfCEwrpYvrRsLm+Pn3L18yUdrPjXO/8in9oCWLfFXYv+tSFubD/uT2BYPubg5lc5jjL2MeHsEH6tLkofa+W/qgmIdl/C1Y8DWDwP/M56gtfrQ8NE51Xow8rm9o/JwIJ9l75z/pJIzjPTxJT45DwZ+qY9StnRfKOGX5q+5r7hcUVTd4Wq4VprvJu0aLfluTFzIh79TPqrUZYEv3a2c/6N8pp5QdQe+L9ULsQY4vylfOgexd+F/9uYH/Tm/X771nmqV89vyzy7L2dor/xLiGuLWiB+7vYd4NOLH/J8hXo34nr89f6pOUvem/HnK33VuvQEtl2hm
+  </data>
+ </layer>
+ <layer name="shadows" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAgHcDIAAAAQ==
+  </data>
+ </layer>
+ <layer name="tres" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztmcsOgjAQRYuufGzQHe7UlbpS///bLNEbm5GpLS0W4j3JZAKUaQ+FhU5jjNnZONk4J+RvyPHNa16wsbHtkVFnb+Pg1MMx8tXGzclLZR0xLJw6rdfKxtpz3kXOK6+HgjqynnZernvq/tp7gGNc19ad4u+ifRcXZXwu/5bKfO438rFjfG5/1Gv3uYR/bd77LL/zu2e9Ofc/lpz+sdCf/vSnP/3H4w9+8RzG7A+GfA5T8B+a0N9tQ0H/cv7u+18K+tOf/mWgP/3pX9Yf/08RQsowL70A8vfMzPM9lP1K5K7+TRVwX2jW+ja+/o2v3xObtb6Vr39lAu4LzX39U73RF9X6Vr7+Ve0ZH5ox7wOMfy9p
+  </data>
+ </layer>
+ <layer name="tres deux" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztl8sKwkAMRYN242PjY6W7ulNX7f//mxEbhNBOC04nFc6BS5gOQ3OySy0iN/mdfeJu0/Pt2dW75jHyfgrnxN0h0U8tH//U+zkx/yjMPwr88cc/Dvzxxz8O/JfhHzUH84+ag3lfNFcpPwfvX3oO3t/PIXddadaaqvv/kP+cdSfffct7l6q2by3Fv9G0Pefc9ag5OX/r572XbiXPPjwV62voDAAAAAAAAAD/zwth8yGA
+  </data>
+ </layer>
+ <layer name="rod" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEOgCAUREHQGyp4/6P4GxpjgYFIM5NsQ/OMhJQAAAAAAIBVSk6pxq68pn9u8Q2xuuk37U56N3J3b/121ruRf/fWP/Y4/7Cyz+3/SV9/Zf+Y8Ibg6QbSNho1
+  </data>
+ </layer>
+ <layer name="Signs" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztlUsOgjAYhLvSA9DyPIR4Me1b0cs7C7eyKNg/JPMlX0gXMBMWHaUIIYQQQgghhBBCCCHkN9eTbP58ls0nx+PZKLU0cvkPjQ5aLj8bdDBy+alFh7bs3XmH+yZ26NCVvXvZ4b4JPTr0279Tih/QYZDLdyM6jHL5dkKHSS6fHAePnQgwwgRzxd2w2AgHPQwwwgRzpe24YyMsdNDDACNMlbbjho14439bPB3033Ms3I4SXnr9/G8Ws37ewgf7gxqm
+  </data>
+ </layer>
+ <layer name="buildings" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt1FlugzAUhWGkbizzvNUGMBhIt9CGMd1DG4Z0Cf2fEQ9WQi2lukf63mzf+3LsOBKJRCKRSCQSiUQikUgkkmdIMXGcEhUu+JzYnZ9P2QElKlymdudnM3ZAgRLVzO78dM4OyFGgnNudf16wAzLkKBZ2538s2QEpMuTL8d5ueKtFhxt+Bt5+X7EDzkiRrcabX/NWgxYdbiO+bZLrmh3QoEW3NrsXcy7BCW+Gd4byvWEH1GjQbszuRZyLkeBkeGcoX1t2wBU1mq3ZPc25CDESwztjJtyxAyLEO/vzgz07QCPa25+vDuyAEPpgf/5/jqLPAUJoRL1+m/yZj8SnzwoBQuhev//6z/Tosw+FAGGv3yZ/5ssD81367MGHQtDr971/pmmO9NmFBx+q1+97/0zTvNLnI1x48KXfEsnT5RcYJJbx
+  </data>
+ </layer>
+</map>
