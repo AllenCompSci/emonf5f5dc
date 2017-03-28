@@ -1,11 +1,11 @@
-package com.center.pokemon.desktop;
+package classes;
 
 
 public class Move {
     private String Number;
     private String MoveName;
-    private Utility.TYPE AbilityType;
-    private Utility.CATEGORY MoveType;
+    private Utility.TYPE Type;
+    private Utility.CATEGORY Category;
     private Utility.CONTEST MoveRating;
     private int PP;
     private int Power;
@@ -14,8 +14,8 @@ public class Move {
     public Move(String [] set){
         Number = set[0];
         MoveName = set[1];
-        AbilityType = typeSet(set[2]);
-        MoveType = status(set[3]);
+        Type = typeSet(set[2]);
+        Category = status(set[3]);
         MoveRating = contest(set[4]);
         PP = Integer.valueOf(set[5]);
         Power = Integer.valueOf(set[6]);
@@ -89,6 +89,18 @@ public class Move {
         if(in.equals("None"))
             return Utility.TYPE.NONE;
         return Utility.TYPE.TYPELESS;
+    }
+
+    public Utility.TYPE getType(){
+        return Type;
+    }
+
+    public Utility.CATEGORY getCategory(){
+        return Category;
+    }
+
+    public int getPower(){
+        return Power;
     }
 
 }
