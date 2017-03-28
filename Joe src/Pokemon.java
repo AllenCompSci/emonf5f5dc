@@ -1,4 +1,4 @@
-package com.center.pokemon.desktop;
+package classes;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,6 +22,7 @@ public class Pokemon {
     private LinkedHashMap<Integer, Move> LearnSet = new LinkedHashMap<Integer, Move>();
     private ArrayList<Move> HatchSet = new ArrayList<Move>();
     private HashMap<Utility.STATS, Base> pokeSTAT = new HashMap<Utility.STATS, Base>();//
+    private int statModifiers[] = {0,0,0,0,0}; // Attack, Defense, Sp Attack, Sp Defense, Speed
     private Utility.ExperienceGroup XPMODE;
     private Utility.TYPE MAIN;//
     private Utility.TYPE SUB;//
@@ -83,7 +84,10 @@ public class Pokemon {
                 XP += TNLxp;
                 LevelUp(xp - TNLxp);
             }
-            else XP += xp;
+            else{
+                XP += xp;
+                TNLxp = Utility.TNL(level, XPMODE) - XP;
+            }
         }
     }
 
@@ -102,6 +106,21 @@ public class Pokemon {
         pokeSTAT.get(Utility.STATS.SP_ATTACK).setLVL(level);
         pokeSTAT.get(Utility.STATS.SP_DEFENSE).setLVL(level);
         pokeSTAT.get(Utility.STATS.SPEED).setLVL(level);
+    }
+
+    public int getStat(Utility.STATS stat){
+        return pokeSTAT.get(stat).getStatValue();
+    }
+
+    public Integer getLevel(){
+        return level;
+    }
+
+    public Utility.TYPE getMAIN(){
+        return MAIN;
+    }
+    public Utility.TYPE getSUB(){
+        return SUB;
     }
 
     public void gainEV(Utility.STATS stat, int increase){
@@ -143,6 +162,46 @@ public class Pokemon {
             gainedHP = maxHealth - currentHealth;
         }
         currentHealth += gainedHP;
+    }
+
+    public String attacked(Move move, Pokemon oppPoke){
+        Utility.TYPE type = move.getType();
+        Utility.CATEGORY category = move.getCategory();
+        int power = move.getPower();
+        Integer level = oppPoke.getLevel();
+        int oppStat, selfStat;
+        if(category == Utility.CATEGORY.PHYSICAL){
+            oppStat = oppPoke.getStat(Utility.STATS.ATTACK) * statModifiers[0];
+            selfStat = getStat(Utility.STATS.DEFENSE) * statModifiers[1];
+
+        }
+        else {
+            oppStat = oppPoke.getStat(Utility.STATS.SP_ATTACK) * statModifiers[2];
+            selfStat = getStat(Utility.STATS.SP_DEFENSE) * statModifiers[3];
+        }
+        int weather = 1;
+        int crit = 1;
+        double range = 0;
+        while(!(range <= 1 && range >= .85)){
+            range = (((Math.random() * 16) + 85) / 100.0);
+        }
+        double STAB = 1;
+        if(type == oppPoke.getMAIN() || type == oppPoke.getSUB()){
+            STAB = 1.5;
+        }
+        double typing = (double)(Utility.chart(type, getMAIN()) * Utility.chart(type, getSUB()));
+        long modifier = (long)(weather * crit * range * STAB * typing);
+        decreaseHP((((((2 * level / 5) + 2) * power * oppStat / selfStat) / 50) + 2) * modifier);
+        if(typing == 1){
+            return "It was effective";
+        }
+        else if(typing == 0){
+            return "It had no effect";
+        }
+        else if(typing > 1){
+            return "It was super effective";
+        }
+        else return "It was not very effective";
     }
 
     private void splitUP(){
