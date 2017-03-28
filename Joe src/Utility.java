@@ -1,4 +1,4 @@
-package com.center.pokemon.desktop;
+package classes;
 
 import com.sun.org.apache.xerces.internal.jaxp.validation.ErrorHandlerAdaptor;
 
@@ -22,6 +22,8 @@ public class Utility {
     public enum TYPE{NORMAL, FIRE, WATER, GRASS, ELECTRIC, ICE, FIGHTING, POISON, HUDSON, GROUND, FLYING, PSYCHIC, BUG, ROCK, GHOST, DRAGON, DARK, STEEL, FAIRY, GLITCH, QMARK, SHADOW, TYPELESS, NONE }
 
     public enum NATURE{HARDY, LONELY, BRAVE, ADAMANT, NAUGHTY, BOLD, DOCILE, RELAXED, IMPISH, LAX, TIMID, HASTY, SERIOUS, JOLLY, NAIVE, MODEST, MILD, QUIET, BASHFUL, RASH, CALM, GENTLE, SASSY, CAREFUL, QUIRKY}
+
+    public enum STATUS{PARALYZED, POISONED, BADLYPOISONED, BURNED, FROZEN, SLEEP, CONFUSED, INFATUATION}
 
     public enum FLAVOR{SPICY, DRY, SWEET, BITTER, SOUR}
 
@@ -266,7 +268,7 @@ public class Utility {
             case NORMAL:
                 if(Def == TYPE.GHOST)
                     return 0f;
-                else if (Def == TYPE.ROCK || Def == TYPE.ROCK)
+                else if (Def == TYPE.ROCK || Def == TYPE.STEEL)
                     return .5f;
                 break;
             case FIGHTING:
