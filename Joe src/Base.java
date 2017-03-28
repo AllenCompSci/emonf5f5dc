@@ -1,4 +1,4 @@
-package com.center.pokemon.desktop;
+package classes;
 
 public class Base {
     private Utility.STATS Gen;
