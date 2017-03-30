@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="35" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="indeer" tilewidth="16" tileheight="16" tilecount="3600" columns="60">
+  <image source="emonf5f5dc-master/public_indoor_tileset_from_public_tiles_by_chaoticcherrycake-d801ty3.png" trans="000000" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="3601" name="dhbolw" tilewidth="16" tileheight="16" tilecount="1848" columns="28">
+  <image source="emonf5f5dc-master/dhbolw.png" trans="e6f4c4" width="448" height="1071"/>
+ </tileset>
+ <tileset firstgid="5449" name="public_indoor_tileset_from_public_tiles_by_chaoticcherrycake-d801ty3" tilewidth="16" tileheight="16" tilecount="3600" columns="60">
+  <image source="emonf5f5dc-master/public_indoor_tileset_from_public_tiles_by_chaoticcherrycake-d801ty3.png" trans="cccca1" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="9049" name="Capture" tilewidth="16" tileheight="16" tilecount="130" columns="13">
+  <image source="../Pictures/Capture.PNG" trans="000000" width="216" height="172"/>
+ </tileset>
+ <layer name="floor" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJgDAQRNEBSc7akQVoQ7EB7U/7MVfBg4FIRvkLyz8lvNMmSUveVNixu27p+7vW+KNWHQxYnlv2IB3Bw9JHaYgelik7ZhPLmh2biaV1HQx/sJQMFixYsHzV4nR3sWBpbcCCBQuWt3sCkT4Z0Q==
+  </data>
+ </layer>
+ <layer name="room floor" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF2ACjKAQjs2F8ZDX0dAs6HnULAscJQjAht9HaLTB34HIPvd2CjU1Pt4DAFD5U3MWGyh8Fo2AUjIJRMApGwSgYBaNgFIyCkQzmCw4MGxvYLTgw7MECAIijGus=
+  </data>
+ </layer>
+ <layer name="room stuff" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztkjtOAlEUhm8DiTYyFmZqE3UHliTa4AsWoEYEd2ChjWAhviil4RFdgjYKpY8FiOC4CUTX4DeZwuFmAhXHG3P/5EvOvXeS/0vmvCaUasMbdKAL7+DBB0imR98n9OELvqGsAqQTd37nCeZJ2HEGv8lq53FlNtQzxzwPC1q37jauJEM9S8zLEb0pIZdNerZgG7wY+xoL/sku5CAPe0IuB/QcwlRcqQQ4MA1H3BWgCMdCLlf0VGCd/g1IQwaq3NWgDg0hl1t67uCc/gu4hDLcc/cATWgJuSzOyPSMiu+xb4iL75EzxCWvuaRcpVZcme5VetZCXbrLCW8lIZdTes6GuDzy9iTk8kzPyxCXv4zJLnZ3o13s7gYx2cXubrSL3d0gvsu1IS43hnjY2Nj8z/wAhwZMvw==
+  </data>
+ </layer>
+ <layer name="rug" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztkMENgkAQRf+yUAC1KGekAqQBWlDPSAFKSYS6CDeHuImbaMDT7B7+S16ymct/2TOAZsOVGjo8xOcP4b0HxZY2f1s74d3aXClEmM1nL3TLaL43/Y7Vxei0zH/sxNQyRdSi9S+HBDjuWCQ6LRfZue54U2ohhBBCCCGE6GEtkDozG7allP2Tswrc0sn+3dkHbomFF8M/Ijc=
+  </data>
+ </layer>
+ <layer name="items" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt170NgzAUBOArgJaYBQKsA2EE2mQPkPiZj0wQyBxcSQNIxJFd3Cdd4+K9k7sHHKt23j8BMDML8w1OhvzZPQRSJmPy0N7cwgClsTfvF0/2eG261A57NdzdevIvIiIiIiIi4qeJ9/nb4o1+VRwBN8YwSeS2S8H9JfNgKsddOu7vmYEZHXfxxQq5yA1a
+  </data>
+ </layer>
+ <layer name="gym" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztztENABAQBNGtAAVcRagLZdMCconIvGQ/NxkJAPCCYFJ0WLL9lrw+xWGVFlpooYUWWmi5bmnr0x02DloA4CcTqA+UEQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="35" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztzmc3F2AAxuH/d/l/qiJ7ZmWWSGWmZURJyCpFwygrtEXZIfo0rs/gnOfd8zvnenufO5GIxWKxWCx23i4kE4mLpJDKJdJIJ4NMssgmh9xkuC95tvMpoJDLFFFMCaWUcYVyKgJ+qbRdRTU1XOUatVynjnpu0MDNgF9u2b5NI00000Irbdyhnbvc437ALw9sP6SDTrro5hE99PKYJ/TxNOCXftvPGGCQIZ4zzAijjDHOC14G/DJh+xWvmWSKN7zlHe+ZZoZZ5gJ++WD7I/MssMgSy3xihVXW+MyXgF++2v7Gd37wk3V+scEmv/nDFtsBv+zY3mWPfQ74yyFHHPOPE075H/BLLBaLxWKhOgP54l+6
+  </data>
+ </layer>
+</map>
