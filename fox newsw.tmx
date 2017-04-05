@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="pokemon_tileset_from_public_tiles_by_chaoticcherrycake-d5xdb0y" tilewidth="16" tileheight="16" tilecount="21000" columns="140">
+  <image source="emonf5f5dc-master/emonf5f5dc-master/Visual Stuff/pokemon_tileset_from_public_tiles_by_chaoticcherrycake-d5xdb0y.png" trans="000000" width="2240" height="2400"/>
+ </tileset>
+ <tileset firstgid="21001" name="public_indoor_tileset_from_public_tiles_by_chaoticcherrycake-d801ty3" tilewidth="16" tileheight="16" tilecount="3600" columns="60">
+  <image source="emonf5f5dc-master/public_indoor_tileset_from_public_tiles_by_chaoticcherrycake-d801ty3.png" trans="000000" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="24601" name="cnn-logo-square" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="cnn-logo-square.png" trans="003039" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="24610" name="c_fit,fl_progressive,q_80,w_636" tilewidth="16" tileheight="16" tilecount="15" columns="5">
+  <image source="c_fit,fl_progressive,q_80,w_636.png" trans="000000" width="85" height="48"/>
+ </tileset>
+ <tileset firstgid="24625" name="onion my dude" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="photo.png" trans="eaeaea" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="24634" name="og-fn-foxnews" tilewidth="16" tileheight="16" tilecount="169" columns="13">
+  <image source="og-fn-foxnews.png" trans="eaeaea" width="208" height="208"/>
+ </tileset>
+ <layer name="floor" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyzUmVgsBrFo3gUj+JRPIpH8SgexUMKAwA+vefw
+  </data>
+ </layer>
+ <layer name="stage" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztkckJwDAMBDcX2B0kPrrM2UPOLpNUERXghyPwx2hgfkIDEiAIwG2Ah+Fr4hu9BQaGo5VGbo1JATO5qHSNSgM12eh0jYN2n+SVsJHLz6URwAEFw9LFJ1aa3RjuPxqtBzqGxv+4lRDkA7QqigQ=
+  </data>
+ </layer>
+ <layer name="stair" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzjCWFg4AViHhrSHkDsSWN6FIyCoQwyghgYMoNoa+YSIHsple2ghZmjYGiB0bRLXSArx8AgB8TyQKwAxIpy1LdjJdDMVUC8GojXAPFaGthhKs/AYAbE5kBsAcSW8tS3gxIwhcbtBpD5F2hsB8h8AIYZMSE=
+  </data>
+ </layer>
+ <layer name="gless" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwk8DWJgyIPigiDqmJmLZOYzIFYMpo65uIAS0PxYGtsRR2PzR8EoGAWjYLiA2iAEpoa6UTB4AAAfmw4V
+  </data>
+ </layer>
+ <layer name="logo" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzWdXDnAAxuHnc5FRRKmkpKHwhGQTCpURRfbIVmZJ9qis7IqIUPasT9L1Ffp3jlfPfc718j6/SCS22P7fxkQjkbHEMY7xTGAi8SQwickkMiU68sZUnySSmUYKqaQxnXRmkEEmMwMaWT6zyCaHXPKYTT4FzGEu84gGNAp95rOAhRSxiGIWs4SlLGM5KwIaK31WsZoS1rCWdZRSxno2sJHygEaFTyWb2MwWtlLFNrZTTQ072BnQqPXZxW72sJd97OcABznEYeo4EtA46nOM45zgJKc4TT0NnOEs5zgf0Ljgc5FGmrhEM5dp4QpXucZ1bgQ0bvrc4jZ3uEsrbbRzj/s84CGPAhodPo95wlOe8ZwXvKSTLrp5xeuARo/PG97Syzve08cHPvKJfgb4HND44vOVb3znBz/5xW/+8Jd/DDIU0IgtttFsGEeLnR8=
+  </data>
+ </layer>
+</map>
