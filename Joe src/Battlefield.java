@@ -1,26 +1,49 @@
 package classes;
 
 public class Battlefield {
-    private Pokemon[] opponentParty;
+    private static Pokemon[] opponentParty;
 
-    private boolean endturn;
-    private int turncount;
+    private static boolean endturn;
+    private static boolean battling;
+    private static int yourPoke;
+    private static int oppPoke;
+    private static boolean youFirst;
+    public static int selectedMove = 0;
 
-    //when pokemon completes an action in battle, endturn becomes true to keep the order of the battle turncount goes up one
-    //turncount is counter which tracks how many turns it has completed
-    //the pokemon with the lowest turn count will go first, and if both pokemon have the same turncount, the first pokemon goes  m
-    public int turnOrder(boolean endturn, int turncount){
-
-    }
-
-
-
-
-    public Battlefield(String[][] oParty){
+    public void battlefield(String[][] oParty){
         opponentParty = new Pokemon[oParty.length];
         for(int i = 0; i < opponentParty.length; i++){
             opponentParty[i] = new Pokemon(oParty[i][0], Integer.valueOf(oParty[i][1]));
         }
+        battling = false;
+        yourPoke = 0;
+        oppPoke = 0;
+        youFirst = opponentParty[oppPoke].getStat(Utility.STATS.SPEED) <= Party.party.get(yourPoke).getStat(Utility.STATS.SPEED);
+
+
+    }
+
+    public void turn(int move){
+        if(youFirst){
+            opponentParty[oppPoke].attacked(Party.party.get(yourPoke).getKnownMoves().get(selectedMove - 1), Party.party.get(yourPoke));
+            if(opponentParty[oppPoke].getStat(Utility.STATS.HP) == 0){
+
+            }
+        }
+    }
+
+
+
+    public int getYourPoke() {
+        return yourPoke;
+    }
+
+    public int getOppPoke() {
+        return oppPoke;
+    }
+
+    public boolean getBattling(){
+        return battling;
     }
 
 
