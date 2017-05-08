@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Gohan" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="../../../../../Documents/ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <tileset firstgid="32641" name="TREES" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../../../../../Documents/TREES.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="32705" name="Buildings" tilewidth="16" tileheight="16" tilecount="8282" columns="82">
+  <image source="../../../../../Documents/pokemon_platinum_tiles_wip_by_klnothincomin.png" width="1324" height="1622"/>
+ </tileset>
+ <layer name="Grass" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6C9f40FXY+jYC+pqqqq+voAabqUHw==
+  </data>
+ </layer>
+ <layer name="Path" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AR3OUa2/cSAgXbjQNtPD5ACxKlAnDZA9iczAt0AxKmMo/aTCyiJQ3Lsh9kHw4nMEDOSmFHFicH49OLyD8zNtMa4wiSJCegGPDiBBaI/kQW/OkI4hYn4OMEWPkM5TY/aP2r/qP2D3370uoCY+oCabQ1y6gJqhguhuoCa5fooGAUDBQB7hUXZ
+  </data>
+ </layer>
+ <layer name="Sand" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKgCAQRPdLzTN0gqS0+1+ulVgIwaAPR4h5MN9Ph2FFCCGEEEL+TXYiRXM6rM+SFpFVUzzGbb42o/1vboT/8H03wr8HfYNmi3P8Rq8H9P5SvPuw5DDe//w7qm+j3T+q7/bOIP217zxxb/R/91/ixhMn
+  </data>
+ </layer>
+ <layer name="Trees" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlkELwjAMhffPS/XUeZre9KY39aSe9M+ZgbLQJTWTJEPsg8djYdB+Tde1DU2zAh/BJ4M8g3MlqLWvce/gh2JewFeUN2L8iN5/z8OS15Of4v1F/ryP0uT491A/hCE/8Us4pErMepX4JX2UqiPWyZM/F+7/GryZ0EcN4f0/hzD/HKr8A/8CvAzj88FSmJ/7/iyF+bfgHXH+WKryV/7K78cfiXPOkz8VOL34OU6unv8PpKnF/21S6gqc2jmFv7T/NfkjMc9/4u/7T92z++cnln09oQ==
+  </data>
+ </layer>
+ <layer name="Fences" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENACAMA0E3wFCB7D8WfbpIyKL4k1x/YQlA1x7SKcvl68f0tX7s56N+/dD9IwAAAOB0ARIYA+Q=
+  </data>
+ </layer>
+ <layer name="Buildings" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1UlOw0AQhWEvWXEBFpB4SsIhcObpUiSHYojnHjzkVPzIyo42IBmEkJ/0KYq61FUbV1tWnz5/L05gWS48+BhhjAnug5/vb0+ZAS48+BhhjMm0qREry5JQ0Chw8/jxfSVnFWqcV5/3H86YAQ5cePAxwnjW1ORrZoCEgl6b7ys4K1Ghbqm7ZDBnBthw4MKDj9G8qck2zAABCbUx36c5K1Ciaqm75G7BDBjChgMXHvxFU5NumQE5BOTWfJ/iTKNA2VJ3ye2SGTDAEDYcuPCWTU2yYwZkyCF25vskZwoaRUvddxLvmQEpMuR7c63gTEJBt9T16fOVPB0s6xkvh+b/id8Q0eF3+l8d+Y4e+JZRocYZ18du7k/Y0Sky5IZ9rQNmQIkKddBN7/fE7OgEKTLDvla8QxoFSlTT7vpH7OgYCVLDvpa8QwoaBcpZd/1DdnSEGIlhXwveIQkFjWLeXf8TOzpEhNiwr3PeIQEJBb3orv8rO/qEEJFhX2e8QzkEJNSyu/59+vT5/3kD6DWRew==
+  </data>
+ </layer>
+ <layer name="Signs" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENACAMxMA0sBZh/6UoGABHNAj5yi++dIQk/WE2tlU/qOxsq35IkjbS6Lzo+PEbNHrYcUkPWzYKArs=
+  </data>
+ </layer>
+</map>

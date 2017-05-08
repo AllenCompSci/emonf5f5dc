@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Miror B (Coliseum) - Main Menu Theme
 Credits - Friday
 Battle Themes:
@@ -9,4 +10,17 @@ Battle Themes:
 	Solstice (NYT)
 	XY Battle Theme (DNC)
 Player theme splatoon
+=======
+Miror B (Coliseum) - Main Menu Theme
+Credits - Friday
+Battle Themes:
+	Undertale Ghost battle (CNN)
+	Miror B (Gale of Darkness) - Trump Theme
+	Puyo Puyo Fever (Onion)
+	Silver Sulfer (FOX)
+	Pictionary (Buzzfeed)
+	Solstice (NYT)
+	XY Battle Theme (DNC)
+Player theme splatoon
+>>>>>>> origin/master
 Intro Text - Jupiter

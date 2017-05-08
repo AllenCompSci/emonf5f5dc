@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Gohan" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <tileset firstgid="32641" name="Trees" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="TREES.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <layer name="Sand" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJyT5GRgkBzFo3gUDwq8kHHU/pFsPy3cQq45w8l+XHig43gUj+JRPIpH8SgexaOY3hgACv+QAQ==
+  </data>
+ </layer>
+ <layer name="Grass" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0TsKACAMBFFtPI9XFnJQexH8ZDXNPEg9LLGckoluRdWpZX6/+rdU2yP7Ht5/e0XtPuk30a93ey/Rj+0DAAAAow5Tz20Y
+  </data>
+ </layer>
+ <layer name="Water" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEKgCAQhOE5BYrXSqP3f84QESq8LMIG8Q98V2dXlQghhFiyJSnHZk3+/UeQzqXZP5jh3u89Q737Ep/9VQ4+/e/dZ/r7H7IY7d7fwHrW6BwAAPBvF509TBg=
+  </data>
+ </layer>
+ <layer name="Island" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzrkKgDAQRdFXZrHVLP7/f6pFQIa0GUHugSmmuk8CAAAAYLUgdXNn8OvXeG8wV7Lflln/fT2u7Zck7dt3/bGhTnYcz5/W9+2OcZ5t/MsF37IGGw==
+  </data>
+ </layer>
+ <layer name="Trees" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEOQDAQBND+uYSTOpUbf8CNGz9nLr3tVun2IJmXTDYRUcP6xrkBWZHNYEp6XPfKOTOyICdyvZg7cghTEhLnaO/1pafGsn+qp6TFvZ1hf6vecY7IJPzH2r3j1NTu/fTcnL3WpPY9t38Ji/4lQmKvSr4rEREREdHf3dqK3j0=
+  </data>
+ </layer>
+ <layer name="Rocks" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztk1EOgjAQRLfQD7iIeAH1R7mpSutFLYmbaAOl0y42GiaZv7JvZ3ch+h9dGqK+Kcc/t66Hthx/Ey474UdB/si26nt8oz5tXz7WRKe6HP+gXQ+6DP+q82+B52do+sbYPt9no7vgtzy/QYV78Pm5u+C3zLxxDzMeqnmbCv8XOP878x5gLHnsARHnj2XGqHPeR/KRt7HauRl2kXtA3i4pJ4vEHHKySMxhy49nkLx/zoDUlLx/pOYa//0v5PYlNYfUOik3E6qT2k/uPnweWk86P1pXOj9ad6380t8/ASK3Wrk=
+  </data>
+ </layer>
+</map>
