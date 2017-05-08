@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Gohan" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="../../../../../Documents/ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <tileset firstgid="32641" name="TREES" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../../../../../Documents/TREES.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <layer name="Grass" width="26" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMAiDfv4ZBDXLY6CVVVVV9cKa+GF8=
+  </data>
+ </layer>
+ <layer name="Path" width="26" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B4kCcCwbQGuaIQTGuQIwbBwwWkAHEaHexJYgLaxYRb/i4HHRwxjMBoeFEGaBl+9Iyb0XQwCkbBKBgF9AEAAcYJGg==
+  </data>
+ </layer>
+ <layer name="Trees" width="26" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzrqmdg6AbiVUC8mob0LCCeDcS7gHg3DemuUf/Q1D+bgHgzHfyzBog7KfA/sf7ZAsQTKYjPweIfWLzA/DMJiCcjiRNLE3JfDxBjA55YxBqBapuAuBmIFwHxYiS9hPwzBYc9royYYtjCFeZOcv2DzR5s4QpzJzX9gw9Q0z/4ACH/oMcnrfyDy1/U9g+ueMJmD3K6bkFTT03/IKdrdPXk+seFCWgXGvZgQqRrdzQ5cv1DKiDXP6SCweYfWD4ilx5s7YPh1t4Z9c/w9g8AyHoAPQ==
+  </data>
+ </layer>
+ <layer name="Flower Sign" width="26" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzbENACAMBDGyHoT91+GXSIFkS1ffWsDvTup0hz+78kpdwyMAgCEPFd0ByQ==
+  </data>
+ </layer>
+</map>

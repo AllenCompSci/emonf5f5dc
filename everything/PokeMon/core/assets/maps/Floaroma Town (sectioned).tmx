@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="64" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="TREES" tilewidth="16" tileheight="16" tilecount="240" columns="8">
+  <image source="All Trees.png" trans="000000" width="128" height="480"/>
+ </tileset>
+ <tileset firstgid="241" name="Goten" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <layer name="groond" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7Ay/2cFV8cggfSSqqqqqqqqqqqvD9XDsD0=
+  </data>
+ </layer>
+ <layer name="flowers" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOgzAMROkO7n8q4FKIRSoT2R47Dk1pPVIUidK8yXfCNKVObYutrFWxap+v5an84mG7gz+Tmhb6W+WhG19iMx7qtrj2JO66KHxQOK6Vj9ZNhK3xa24rH/kYzZfG+Rf50h6wshF/F/bfztS9+bQ9xI54qKXNKTqPOfY28/UdfC6XkIfe/b/kgmEde/jWMVDzI8B/jyepoz4sfHZOrR6CfG3vmDzcyFfZjfNf5DnDRB8f4ovzEOB7fXjZ6L7g4Xv7b7mvpFKnpNzRMtwqy3eTdY16vhsLl/Lpc8lHl1wGfHS3Sv6X8pU8kXKHvo/yAmZA8ofy0TnIvUv/09o/6i/5z+VH76lRJX8s/98VOVufyn8N5lMlP/ktfCknpXtTnqspTgfuu2dm
+  </data>
+ </layer>
+ <layer name="tres" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztmc0OgjAQhIue/LmgN7ypJ/WknvT938slcUJT2dJCoZjMJJsNUHb70XKAqYwxB4mLxHVA7pI7vvr2hXYS+x4ZdY4SJ6sejpHvEg8rr5V5xGhl1am5NhJbz3lbbl/3eqhQx62nnXfn/e/82j7AMa5r8x7Cb0t7L27K+FT8tQrzu97I55bxqflRr17nHPyladbZfc+fnvmmXP9YpeSPFfnJT37yk38+/NAUz2HO/NCYz+Ef+MdW6HfbWCJ/Pn57/+cS+clP/jwiP/nJn5cf/6coippeC4llpt72//Jcekm8M/Umf8OPfej6lcht/k0RcF9XBr/m2/j8G5/fE5s138rnX5mA+0JzX/6h3PBFNd/K51+VnvGhGX0/biow3w==
+  </data>
+ </layer>
+ <layer name="tres deux" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztl8sKwkAMRYN242PjY6W7ulNX7f//mxEbhNBOC04nFc6BS5gOQ3OySy0iN/mdfeJu0/Pt2dW75jHyfgrnxN0h0U8tH//U+zkx/yjMPwr88cc/Dvzxxz8O/JfhHzUH84+ag3lfNFcpPwfvX3oO3t/PIXddadaaqvv/kP+cdSfffct7l6q2by3Fv9G0Pefc9ag5OX/r572XbiXPPjwV62voDAAAAAAAAAD/zwth8yGA
+  </data>
+ </layer>
+ <layer name="rod" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEOgCAUREHQGyp4/6P4GxpjgYFIM5NsQ/OMhJQAAAAAAIBVSk6pxq68pn9u8Q2xuuk37U56N3J3b/121ruRf/fWP/Y4/7Cyz+3/SV9/Zf+Y8Ibg6QbSNho1
+  </data>
+ </layer>
+ <layer name="Signs" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztlUsOgjAYhLvSA9DyPIR4Me1b0cs7C7eyKNg/JPMlX0gXMBMWHaUIIYQQQgghhBBCCCHkN9eTbP58ls0nx+PZKLU0cvkPjQ5aLj8bdDBy+alFh7bs3XmH+yZ26NCVvXvZ4b4JPTr0279Tih/QYZDLdyM6jHL5dkKHSS6fHAePnQgwwgRzxd2w2AgHPQwwwgRzpe24YyMsdNDDACNMlbbjho14439bPB3033Ms3I4SXnr9/G8Ws37ewgf7gxqm
+  </data>
+ </layer>
+ <layer name="buildings" width="32" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt1FlugzAUhWGkbizzvNUGMBhIt9CGMd1DG4Z0Cf2fEQ9WQi2lukf63mzf+3LsOBKJRCKRSCQSiUQikUgkkmdIMXGcEhUu+JzYnZ9P2QElKlymdudnM3ZAgRLVzO78dM4OyFGgnNudf16wAzLkKBZ2538s2QEpMuTL8d5ueKtFhxt+Bt5+X7EDzkiRrcabX/NWgxYdbiO+bZLrmh3QoEW3NrsXcy7BCW+Gd4byvWEH1GjQbszuRZyLkeBkeGcoX1t2wBU1mq3ZPc25CDESwztjJtyxAyLEO/vzgz07QCPa25+vDuyAEPpgf/5/jqLPAUJoRL1+m/yZj8SnzwoBQuhev//6z/Tosw+FAGGv3yZ/5ssD81367MGHQtDr971/pmmO9NmFBx+q1+97/0zTvNLnI1x48KXfEsnT5RcYJJbx
+  </data>
+ </layer>
+</map>
