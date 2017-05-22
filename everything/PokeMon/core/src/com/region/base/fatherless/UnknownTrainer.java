@@ -12,9 +12,9 @@ public class UnknownTrainer extends Game {
 	
 	@Override
 	public void create () {
-		Battlefield.battlefield("Trump");
+//		Battlefield.battlefield("Trump");
 //		setScreen((Screen) new TileMaps());
-//		setScreen((Screen) new Splash());
+		setScreen((Screen) new Splash());
 	}
 
 	@Override

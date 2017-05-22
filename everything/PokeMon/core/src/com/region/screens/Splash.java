@@ -2,6 +2,7 @@ package com.region.screens;
 
 import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenManager;
+import classes.AudioPla;
 import classes.Battlefield;
 import classes.Utility;
 import com.badlogic.gdx.Gdx;
@@ -21,9 +22,12 @@ public class Splash implements Screen, InputProcessor{
     private Sprite titleScreen;
     private SpriteBatch batch;
     private TweenManager tweenManager;
+    private AudioPla example;
 
     @Override
     public void show() {
+        example = new AudioPla("core/assets/Music/Silver Surfer - level 1 - Nes Music.mp3");
+        new Thread(example).start();
         batch = new SpriteBatch();
 
         tweenManager = new TweenManager();
@@ -78,6 +82,7 @@ public class Splash implements Screen, InputProcessor{
 
     @Override
     public void dispose() {
+        example.doKILLKILL();
         dispose();
     }
 

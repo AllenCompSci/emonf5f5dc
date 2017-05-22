@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="TREES" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="Tile Sets/TREES.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="Gohan" tilewidth="16" tileheight="16" tilecount="32640" columns="255">
+  <image source="Tile Sets/ultimate.png" trans="b8b291" width="4095" height="2048"/>
+ </tileset>
+ <tileset firstgid="32705" name="Source" tilewidth="16" tileheight="16" tilecount="1776" columns="48">
+  <image source="Tile Sets/public_tiles_by_epicday-d2n8htc.png" trans="c8bfe7" width="768" height="592"/>
+ </tileset>
+ <layer name="Background" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6C9f80FWY6Dgr2kqqqqqqqqqurrAx67KGo=
+  </data>
+ </layer>
+ <layer name="Tall Grass" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKgCAQRmEXbTqEW+9/xHARiGijC2OY/30QgTDEM4IwJQAA/CrX+hUR/fSf7s/3+vq7Vu+zudHsbM56dsT3/rVvvYj9lnZ/FPtb9NOv3A/AP+V/9Ip++pX7gT/snIdE/N7U+wEvrDNQzx6KORzP
+  </data>
+ </layer>
+ <layer name="Trees" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztWcFugzAMNVsvbbnQ7bTd1p22nkr//2v6IXOlRfNcHCcOEEL6JOuJRg7EzzYh3QHAHu0L7btCfkN7r5hzxz83545/bs4d/9ycO/6hfEB7mYB3UEb/b2Ea5NY1lF8nWn/t+rs6OKP1MFx3PRmXWNKNj7trd19e35K/pn+D9oT2jLYxxmIL9/lwMvpRfzreCn5twv2H5rKgg/t8uBj9uL8b5+C/8/4c8+xT94olI0V/rXbo+AfaEe3z15YCTX/+/I5v0GKXUpdzwbcGX3+6gdbvUOysfWFOaGuQ3k81QNO/BoToL/W50hGqfwl9zooQ/UvocxY86v/R/yX9pX0R3R/FQJondV6O2L4s6a99/8fspbeeeYa+C+eCT3/t3MXlB+dr82f0vRl6nhOaJ2Plj6Z/LLckBr74LuE8KEV/ian+XcI8Vo7Nl7XpPxaXqv9YbNVt7fpr/5sA/NdfOv9bOv8ASt2lqA==
+  </data>
+ </layer>
+ <layer name="Trail" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztllEOgyAQRAW9etMeo4L2ZD1I6Qep0gIGRxfSeckkfiEPFpauI4QQQgghpH0mlzmSh+C8zsIqtwaRzEp6dsfj/cfBfet1Ji03r1RdImvUVOD6i1Rdomr06pwvi9wqWoMz/GvG6O/z6HMfcP7+nLV011vg/tsG60jCP3dPhHcJMuH/uP/1+uf6dsk9E4459h9/0297J8Tix0L55/pWyX+29sI9QfmHfWvZq95vzJJ3VqoXooJ6/z3VOsiz2iL0pz/96U////Q3B/RYCV4IkK8Q
+  </data>
+ </layer>
+ <layer name="Signs" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgDAQA8BPl+wMDBDCzvwKVC/gTnJvuXMEAPAle484enWLOtvIDUZ1CwCeOjMrc1UXKTJbbpBZrboJAPybT+1TA8Db3SRnB3U=
+  </data>
+ </layer>
+</map>
